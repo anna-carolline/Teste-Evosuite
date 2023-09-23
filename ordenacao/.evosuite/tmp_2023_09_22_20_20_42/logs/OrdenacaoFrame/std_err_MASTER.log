@@ -1,0 +1,3 @@
+[MASTER] 20:27:57.370 [main] ERROR ExternalProcessHandler - Class OrdenacaoFrame. Clients have not finished yet, although a timeout occurred.
+ClientNode: SEARCH
+

@@ -1,0 +1,108 @@
+* Starting client
+* Connecting to master process on port 16736
+* Analyzing classpath: 
+  - C:/Users/anaba/Downloads/ordenacao/out/production/ordenacao
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar
+  - C:\Users\anaba\Downloads\ordenacao\out\production\ordenacao
+* Finished analyzing classpath
+* Generating tests for class Ordenacao
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 20:20:50.392 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\anaba\Downloads\ordenacao\.evosuite\evosuite-seeds\Ordenacao.seed
+* Loaded 0 tests from C:\Users\anaba\Downloads\ordenacao\.evosuite\evosuite-seeds\Ordenacao.seed
+* Total number of test goals: 
+  - Line 99
+  - Branch 41
+  - Exception 0
+  - MutationFactory 363
+  - Output 5
+  - Method 13
+  - MethodNoException 13
+  - CBranchFitnessFactory 41
+* Using seed 1695424846454
+* Starting evolution
+* Search finished after 142s and 3 generations, 3026 statements, best individual has fitness: 61.52424242424242
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 20:23:47.299 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 86%
+* Total number of goals: 99
+* Number of covered goals: 85
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 41
+* Number of covered goals: 38
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 86%
+* Total number of goals: 363
+* Number of covered goals: 312
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 60%
+* Total number of goals: 5
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 85%
+* Total number of goals: 13
+* Number of covered goals: 11
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 90%
+* Total number of goals: 41
+* Number of covered goals: 37
+* Generated 28 tests with total length 634
+* Resulting test suite's coverage: 87% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 20:25:02.959 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 23s, but only 21s are left
+[MASTER] 20:25:25.276 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+[MASTER] 20:25:25.317 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 23s, but only 0s are left
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         write .\.txtDiretorio00000000-0100-4000-8200-000003000000: 3
+         write .\ahldTF-)JDiretorio00000000-0100-4000-8200-000003000000: 1
+         write .\zE~@0KSzY5Diretorio00000000-0100-4000-8200-000003000000: 1
+         and other 18 cases of action/name for this exception class
+[MASTER] 20:25:25.318 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 23s, but only 0s are left
+* Writing JUnit test case 'Ordenacao_ESTest' to C:\Users\anaba\Downloads\ordenacao\.evosuite\tmp_2023_09_22_20_20_42\tests
+* Done!
+
